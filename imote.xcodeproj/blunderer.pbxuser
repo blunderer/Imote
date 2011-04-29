@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* FreevoRemoteAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 423}}";
+			sepNavSelRange = "{114, 0}";
+			sepNavVisRange = "{0, 622}";
+			sepNavWindowFrame = "{{107, 86}, {936, 603}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* FreevoRemoteAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 1326}}";
+			sepNavSelRange = "{114, 0}";
+			sepNavVisRange = "{0, 967}";
+			sepNavWindowFrame = "{{130, 65}, {936, 603}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* imote */ = {
+		activeExec = 0;
+		executables = (
+			FB2B5C3F10C470850080C441 /* imote */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* FreevoRemoteViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 3458}}";
+			sepNavSelRange = "{117, 0}";
+			sepNavVisRange = "{0, 656}";
+			sepNavWindowFrame = "{{153, 44}, {936, 603}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* FreevoRemoteViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 10231}}";
+			sepNavSelRange = "{117, 0}";
+			sepNavVisRange = "{0, 1325}";
+			sepNavWindowFrame = "{{334, 59}, {936, 603}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FB2B5C3F10C470850080C441 /* imote */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* imote */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* imote */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = FB2B5C4E10C470900080C441 /* Code sense */;
+		executables = (
+			FB2B5C3F10C470850080C441 /* imote */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					754,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 325806315;
+			PBXWorkspaceStateSaveDate = 325806315;
+		};
+		perUserProjectItems = {
+			FB538DA910D05C44002EC9C9 /* PBXTextBookmark */ = FB538DA910D05C44002EC9C9 /* PBXTextBookmark */;
+			FB538DAB10D05C44002EC9C9 /* PBXTextBookmark */ = FB538DAB10D05C44002EC9C9 /* PBXTextBookmark */;
+			FB8D401D136B68AB00C1A6E8 /* PBXTextBookmark */ = FB8D401D136B68AB00C1A6E8 /* PBXTextBookmark */;
+			FB8D401E136B68AB00C1A6E8 /* PBXTextBookmark */ = FB8D401E136B68AB00C1A6E8 /* PBXTextBookmark */;
+			FB8D401F136B68AB00C1A6E8 /* PBXTextBookmark */ = FB8D401F136B68AB00C1A6E8 /* PBXTextBookmark */;
+			FB8D4020136B68AB00C1A6E8 /* PBXTextBookmark */ = FB8D4020136B68AB00C1A6E8 /* PBXTextBookmark */;
+			FB8D4021136B68AB00C1A6E8 /* PlistBookmark */ = FB8D4021136B68AB00C1A6E8 /* PlistBookmark */;
+			FB8D407D136B69F700C1A6E8 /* PlistBookmark */ = FB8D407D136B69F700C1A6E8 /* PlistBookmark */;
+		};
+		sourceControlManager = FB2B5C4D10C470900080C441 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	FB2B5C3F10C470850080C441 /* imote */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = imote;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	FB2B5C4D10C470900080C441 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FB2B5C4E10C470900080C441 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FB538D9710D05A5B002EC9C9 /* UISlideWidget.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 454}}";
+			sepNavSelRange = "{185, 346}";
+			sepNavVisRange = "{0, 538}";
+		};
+	};
+	FB538D9810D05A5B002EC9C9 /* UISlideWidget.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 454}}";
+			sepNavSelRange = "{235, 0}";
+			sepNavVisRange = "{0, 243}";
+		};
+	};
+	FB538DA910D05C44002EC9C9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB538D9810D05A5B002EC9C9 /* UISlideWidget.h */;
+		name = "UISlideWidget.h: 14";
+		rLen = 0;
+		rLoc = 235;
+		rType = 0;
+		vrLen = 243;
+		vrLoc = 0;
+	};
+	FB538DAB10D05C44002EC9C9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB538D9710D05A5B002EC9C9 /* UISlideWidget.m */;
+		name = "UISlideWidget.m: 12";
+		rLen = 346;
+		rLoc = 185;
+		rType = 0;
+		vrLen = 538;
+		vrLoc = 0;
+	};
+	FB8D401D136B68AB00C1A6E8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FreevoRemoteAppDelegate.h */;
+		name = "FreevoRemoteAppDelegate.h: 6";
+		rLen = 0;
+		rLoc = 114;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	FB8D401E136B68AB00C1A6E8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FreevoRemoteAppDelegate.m */;
+		name = "FreevoRemoteAppDelegate.m: 6";
+		rLen = 0;
+		rLoc = 114;
+		rType = 0;
+		vrLen = 967;
+		vrLoc = 0;
+	};
+	FB8D401F136B68AB00C1A6E8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* FreevoRemoteViewController.h */;
+		name = "FreevoRemoteViewController.h: 6";
+		rLen = 0;
+		rLoc = 117;
+		rType = 0;
+		vrLen = 656;
+		vrLoc = 0;
+	};
+	FB8D4020136B68AB00C1A6E8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* FreevoRemoteViewController.m */;
+		name = "FreevoRemoteViewController.m: 6";
+		rLen = 0;
+		rLoc = 117;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 0;
+	};
+	FB8D4021136B68AB00C1A6E8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* imote-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/blunderer/Documents/iphone/FreevoRemote/imote-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	FB8D407D136B69F700C1A6E8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* imote-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/blunderer/Documents/iphone/FreevoRemote/imote-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}

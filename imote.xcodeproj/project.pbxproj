@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FreevoRemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FreevoRemoteAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* FreevoRemoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FreevoRemoteViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* FreevoRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FreevoRemoteViewController.m */; };
+		FB538D9910D05A5B002EC9C9 /* UISlideWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = FB538D9710D05A5B002EC9C9 /* UISlideWidget.m */; };
+		FB8D4054136B697800C1A6E8 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4033136B697800C1A6E8 /* 123.png */; };
+		FB8D4055136B697800C1A6E8 /* 125px-Meuble_héraldique_Engrenage.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4034136B697800C1A6E8 /* 125px-Meuble_héraldique_Engrenage.svg.png */; };
+		FB8D4056136B697800C1A6E8 /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4035136B697800C1A6E8 /* accept.png */; };
+		FB8D4057136B697800C1A6E8 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4036136B697800C1A6E8 /* add.png */; };
+		FB8D4058136B697800C1A6E8 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4037136B697800C1A6E8 /* bg.png */; };
+		FB8D4059136B697800C1A6E8 /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4038136B697800C1A6E8 /* Camera.png */; };
+		FB8D405A136B697800C1A6E8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4039136B697800C1A6E8 /* Default.png */; };
+		FB8D405B136B697800C1A6E8 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D403A136B697800C1A6E8 /* down.png */; };
+		FB8D405C136B697800C1A6E8 /* eject.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D403B136B697800C1A6E8 /* eject.png */; };
+		FB8D405D136B697800C1A6E8 /* fast_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D403C136B697800C1A6E8 /* fast_forward.png */; };
+		FB8D405E136B697800C1A6E8 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D403D136B697800C1A6E8 /* home.png */; };
+		FB8D405F136B697800C1A6E8 /* icon_switch.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D403E136B697800C1A6E8 /* icon_switch.png */; };
+		FB8D4060136B697800C1A6E8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D403F136B697800C1A6E8 /* icon.png */; };
+		FB8D4061136B697800C1A6E8 /* lplay.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4040136B697800C1A6E8 /* lplay.png */; };
+		FB8D4062136B697800C1A6E8 /* music_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4041136B697800C1A6E8 /* music_icon.png */; };
+		FB8D4063136B697800C1A6E8 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4042136B697800C1A6E8 /* next.png */; };
+		FB8D4064136B697800C1A6E8 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4043136B697800C1A6E8 /* pause.png */; };
+		FB8D4065136B697800C1A6E8 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4044136B697800C1A6E8 /* play.png */; };
+		FB8D4066136B697800C1A6E8 /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4045136B697800C1A6E8 /* power.png */; };
+		FB8D4067136B697800C1A6E8 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4046136B697800C1A6E8 /* prev.png */; };
+		FB8D4068136B697800C1A6E8 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4047136B697800C1A6E8 /* record.png */; };
+		FB8D4069136B697800C1A6E8 /* rem.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4048136B697800C1A6E8 /* rem.png */; };
+		FB8D406A136B697800C1A6E8 /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4049136B697800C1A6E8 /* rewind.png */; };
+		FB8D406B136B697800C1A6E8 /* sound_off.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D404A136B697800C1A6E8 /* sound_off.png */; };
+		FB8D406C136B697800C1A6E8 /* sound_omin.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D404B136B697800C1A6E8 /* sound_omin.png */; };
+		FB8D406D136B697800C1A6E8 /* sound_on.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D404C136B697800C1A6E8 /* sound_on.png */; };
+		FB8D406E136B697800C1A6E8 /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D404D136B697800C1A6E8 /* sound.png */; };
+		FB8D406F136B697800C1A6E8 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D404E136B697800C1A6E8 /* stop.png */; };
+		FB8D4070136B697800C1A6E8 /* switch.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D404F136B697800C1A6E8 /* switch.png */; };
+		FB8D4071136B697800C1A6E8 /* textbox_tv.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4050136B697800C1A6E8 /* textbox_tv.png */; };
+		FB8D4072136B697800C1A6E8 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4051136B697800C1A6E8 /* up.png */; };
+		FB8D4073136B697800C1A6E8 /* video-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4052136B697800C1A6E8 /* video-icon.png */; };
+		FB8D4074136B697800C1A6E8 /* widget.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D4053136B697800C1A6E8 /* widget.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FreevoRemoteAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreevoRemoteAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FreevoRemoteAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreevoRemoteAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* imote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* FreevoRemoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FreevoRemoteViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* FreevoRemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreevoRemoteViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* FreevoRemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreevoRemoteViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* imote_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imote_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* imote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "imote-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FB538D9710D05A5B002EC9C9 /* UISlideWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISlideWidget.m; sourceTree = "<group>"; };
+		FB538D9810D05A5B002EC9C9 /* UISlideWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISlideWidget.h; sourceTree = "<group>"; };
+		FB8D4033136B697800C1A6E8 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 123.png; path = img/123.png; sourceTree = "<group>"; };
+		FB8D4034136B697800C1A6E8 /* 125px-Meuble_héraldique_Engrenage.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "125px-Meuble_héraldique_Engrenage.svg.png"; path = "img/125px-Meuble_héraldique_Engrenage.svg.png"; sourceTree = "<group>"; };
+		FB8D4035136B697800C1A6E8 /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accept.png; path = img/accept.png; sourceTree = "<group>"; };
+		FB8D4036136B697800C1A6E8 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = img/add.png; sourceTree = "<group>"; };
+		FB8D4037136B697800C1A6E8 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = img/bg.png; sourceTree = "<group>"; };
+		FB8D4038136B697800C1A6E8 /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Camera.png; path = img/Camera.png; sourceTree = "<group>"; };
+		FB8D4039136B697800C1A6E8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = img/Default.png; sourceTree = "<group>"; };
+		FB8D403A136B697800C1A6E8 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = down.png; path = img/down.png; sourceTree = "<group>"; };
+		FB8D403B136B697800C1A6E8 /* eject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eject.png; path = img/eject.png; sourceTree = "<group>"; };
+		FB8D403C136B697800C1A6E8 /* fast_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fast_forward.png; path = img/fast_forward.png; sourceTree = "<group>"; };
+		FB8D403D136B697800C1A6E8 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = img/home.png; sourceTree = "<group>"; };
+		FB8D403E136B697800C1A6E8 /* icon_switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_switch.png; path = img/icon_switch.png; sourceTree = "<group>"; };
+		FB8D403F136B697800C1A6E8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = img/icon.png; sourceTree = "<group>"; };
+		FB8D4040136B697800C1A6E8 /* lplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lplay.png; path = img/lplay.png; sourceTree = "<group>"; };
+		FB8D4041136B697800C1A6E8 /* music_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = music_icon.png; path = img/music_icon.png; sourceTree = "<group>"; };
+		FB8D4042136B697800C1A6E8 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next.png; path = img/next.png; sourceTree = "<group>"; };
+		FB8D4043136B697800C1A6E8 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = img/pause.png; sourceTree = "<group>"; };
+		FB8D4044136B697800C1A6E8 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = img/play.png; sourceTree = "<group>"; };
+		FB8D4045136B697800C1A6E8 /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = power.png; path = img/power.png; sourceTree = "<group>"; };
+		FB8D4046136B697800C1A6E8 /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prev.png; path = img/prev.png; sourceTree = "<group>"; };
+		FB8D4047136B697800C1A6E8 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record.png; path = img/record.png; sourceTree = "<group>"; };
+		FB8D4048136B697800C1A6E8 /* rem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rem.png; path = img/rem.png; sourceTree = "<group>"; };
+		FB8D4049136B697800C1A6E8 /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rewind.png; path = img/rewind.png; sourceTree = "<group>"; };
+		FB8D404A136B697800C1A6E8 /* sound_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sound_off.png; path = img/sound_off.png; sourceTree = "<group>"; };
+		FB8D404B136B697800C1A6E8 /* sound_omin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sound_omin.png; path = img/sound_omin.png; sourceTree = "<group>"; };
+		FB8D404C136B697800C1A6E8 /* sound_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sound_on.png; path = img/sound_on.png; sourceTree = "<group>"; };
+		FB8D404D136B697800C1A6E8 /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sound.png; path = img/sound.png; sourceTree = "<group>"; };
+		FB8D404E136B697800C1A6E8 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = img/stop.png; sourceTree = "<group>"; };
+		FB8D404F136B697800C1A6E8 /* switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = switch.png; path = img/switch.png; sourceTree = "<group>"; };
+		FB8D4050136B697800C1A6E8 /* textbox_tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = textbox_tv.png; path = img/textbox_tv.png; sourceTree = "<group>"; };
+		FB8D4051136B697800C1A6E8 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = up.png; path = img/up.png; sourceTree = "<group>"; };
+		FB8D4052136B697800C1A6E8 /* video-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "video-icon.png"; path = "img/video-icon.png"; sourceTree = "<group>"; };
+		FB8D4053136B697800C1A6E8 /* widget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = widget.png; path = img/widget.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* FreevoRemoteAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FreevoRemoteAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* FreevoRemoteViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* FreevoRemoteViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* imote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D4016136B686800C1A6E8 /* img */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				FB538D9710D05A5B002EC9C9 /* UISlideWidget.m */,
+				FB538D9810D05A5B002EC9C9 /* UISlideWidget.h */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* imote_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* FreevoRemoteViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* imote-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB8D4016136B686800C1A6E8 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D4033136B697800C1A6E8 /* 123.png */,
+				FB8D4034136B697800C1A6E8 /* 125px-Meuble_héraldique_Engrenage.svg.png */,
+				FB8D4035136B697800C1A6E8 /* accept.png */,
+				FB8D4036136B697800C1A6E8 /* add.png */,
+				FB8D4037136B697800C1A6E8 /* bg.png */,
+				FB8D4038136B697800C1A6E8 /* Camera.png */,
+				FB8D4039136B697800C1A6E8 /* Default.png */,
+				FB8D403A136B697800C1A6E8 /* down.png */,
+				FB8D403B136B697800C1A6E8 /* eject.png */,
+				FB8D403C136B697800C1A6E8 /* fast_forward.png */,
+				FB8D403D136B697800C1A6E8 /* home.png */,
+				FB8D403E136B697800C1A6E8 /* icon_switch.png */,
+				FB8D403F136B697800C1A6E8 /* icon.png */,
+				FB8D4040136B697800C1A6E8 /* lplay.png */,
+				FB8D4041136B697800C1A6E8 /* music_icon.png */,
+				FB8D4042136B697800C1A6E8 /* next.png */,
+				FB8D4043136B697800C1A6E8 /* pause.png */,
+				FB8D4044136B697800C1A6E8 /* play.png */,
+				FB8D4045136B697800C1A6E8 /* power.png */,
+				FB8D4046136B697800C1A6E8 /* prev.png */,
+				FB8D4047136B697800C1A6E8 /* record.png */,
+				FB8D4048136B697800C1A6E8 /* rem.png */,
+				FB8D4049136B697800C1A6E8 /* rewind.png */,
+				FB8D404A136B697800C1A6E8 /* sound_off.png */,
+				FB8D404B136B697800C1A6E8 /* sound_omin.png */,
+				FB8D404C136B697800C1A6E8 /* sound_on.png */,
+				FB8D404D136B697800C1A6E8 /* sound.png */,
+				FB8D404E136B697800C1A6E8 /* stop.png */,
+				FB8D404F136B697800C1A6E8 /* switch.png */,
+				FB8D4050136B697800C1A6E8 /* textbox_tv.png */,
+				FB8D4051136B697800C1A6E8 /* up.png */,
+				FB8D4052136B697800C1A6E8 /* video-icon.png */,
+				FB8D4053136B697800C1A6E8 /* widget.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* imote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "imote" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imote;
+			productName = FreevoRemote;
+			productReference = 1D6058910D05DD3D006BFB54 /* imote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "imote" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* imote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* FreevoRemoteViewController.xib in Resources */,
+				FB8D4054136B697800C1A6E8 /* 123.png in Resources */,
+				FB8D4055136B697800C1A6E8 /* 125px-Meuble_héraldique_Engrenage.svg.png in Resources */,
+				FB8D4056136B697800C1A6E8 /* accept.png in Resources */,
+				FB8D4057136B697800C1A6E8 /* add.png in Resources */,
+				FB8D4058136B697800C1A6E8 /* bg.png in Resources */,
+				FB8D4059136B697800C1A6E8 /* Camera.png in Resources */,
+				FB8D405A136B697800C1A6E8 /* Default.png in Resources */,
+				FB8D405B136B697800C1A6E8 /* down.png in Resources */,
+				FB8D405C136B697800C1A6E8 /* eject.png in Resources */,
+				FB8D405D136B697800C1A6E8 /* fast_forward.png in Resources */,
+				FB8D405E136B697800C1A6E8 /* home.png in Resources */,
+				FB8D405F136B697800C1A6E8 /* icon_switch.png in Resources */,
+				FB8D4060136B697800C1A6E8 /* icon.png in Resources */,
+				FB8D4061136B697800C1A6E8 /* lplay.png in Resources */,
+				FB8D4062136B697800C1A6E8 /* music_icon.png in Resources */,
+				FB8D4063136B697800C1A6E8 /* next.png in Resources */,
+				FB8D4064136B697800C1A6E8 /* pause.png in Resources */,
+				FB8D4065136B697800C1A6E8 /* play.png in Resources */,
+				FB8D4066136B697800C1A6E8 /* power.png in Resources */,
+				FB8D4067136B697800C1A6E8 /* prev.png in Resources */,
+				FB8D4068136B697800C1A6E8 /* record.png in Resources */,
+				FB8D4069136B697800C1A6E8 /* rem.png in Resources */,
+				FB8D406A136B697800C1A6E8 /* rewind.png in Resources */,
+				FB8D406B136B697800C1A6E8 /* sound_off.png in Resources */,
+				FB8D406C136B697800C1A6E8 /* sound_omin.png in Resources */,
+				FB8D406D136B697800C1A6E8 /* sound_on.png in Resources */,
+				FB8D406E136B697800C1A6E8 /* sound.png in Resources */,
+				FB8D406F136B697800C1A6E8 /* stop.png in Resources */,
+				FB8D4070136B697800C1A6E8 /* switch.png in Resources */,
+				FB8D4071136B697800C1A6E8 /* textbox_tv.png in Resources */,
+				FB8D4072136B697800C1A6E8 /* up.png in Resources */,
+				FB8D4073136B697800C1A6E8 /* video-icon.png in Resources */,
+				FB8D4074136B697800C1A6E8 /* widget.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FreevoRemoteAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* FreevoRemoteViewController.m in Sources */,
+				FB538D9910D05A5B002EC9C9 /* UISlideWidget.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = imote_Prefix.pch;
+				INFOPLIST_FILE = "imote-Info.plist";
+				PRODUCT_NAME = imote;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = imote_Prefix.pch;
+				INFOPLIST_FILE = "imote-Info.plist";
+				PRODUCT_NAME = imote;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+		FB2B604710CCEA510080C441 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = dist.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Beta;
+		};
+		FB2B604810CCEA510080C441 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = imote_Prefix.pch;
+				INFOPLIST_FILE = "imote-Info.plist";
+				PRODUCT_NAME = imote;
+			};
+			name = Beta;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "imote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				FB2B604810CCEA510080C441 /* Beta */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "imote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				FB2B604710CCEA510080C441 /* Beta */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
